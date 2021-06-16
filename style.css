@@ -1,0 +1,135 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+/*HEADER*/
+header{
+    background-color: #B81C22;
+    padding-top:1.5vh;
+    color: white;
+    min-height: 7vh;
+}
+#numero-de-telefono{
+    margin-right:5%;
+}
+a:link.header-link{
+    color: white;
+    text-decoration: none;
+}
+a:visited.header-link{
+    color: white;
+    text-decoration: none;
+}
+a:hover.header-link{
+    color:#d8fdfd;
+}
+a:active.header-link{
+    color:#d8fdfd;
+}
+
+
+
+/*NAVEGATION BAR*/
+nav{
+    background-color: white;
+}
+#Danbury-English{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+
+
+
+
+
+/*BODY02*/
+#body02{
+    background-color:#00357E;
+    color: white;
+}
+#frase{
+    font-size: 2em;
+    font-weight: 500;
+}
+button.ponme-en-contacto{
+    background-color:#B81C22;
+    border: none;
+}
+button:hover.ponme-en-contacto{
+    background-color: #3a7ae0;
+    border: none;
+}
+.Elige{
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 4%;
+}
+h5{
+    text-align: center;
+}
+.card-title{
+    margin: 10%;
+}
+.card-text{
+    margin:4%;
+}
+
+
+/*BODY 03*/
+#body03{
+    margin:0;
+    padding:0;
+    background-color: #00357E;
+    color: white;
+}
+
+/*Slider*/
+.carousel-item{
+    color: white;
+}
+
+/*BODY 04*/
+#body04{
+    color:black;
+}
+#marcas-con-las-que-hemos-trabajado{
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 4%;
+    font-weight: 400;
+    margin-bottom: 2%;
+}
+
+/*form_body*/
+#form_body{
+    background-color:#BFBFBF;
+}
+
+label{
+    width: 100%;
+}
+input{
+    width: 100%;
+}
+
+.mb4{
+    margin-bottom:5%;
+}
+.mr2{
+    margin-right: 2%;
+}
+
+.mr5{
+    margin-right:5%;
+}
+div.row{
+    margin-right: 0px;
+ }
+ 
+ div.container-fluid{
+    padding-right: 0px;
+ }
+
+

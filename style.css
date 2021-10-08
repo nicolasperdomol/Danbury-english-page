@@ -12,6 +12,7 @@ header{
 }
 #numero-de-telefono{
     margin-right:5%;
+    font-size: 0.9em;
 }
 a:link.header-link{
     color: white;
@@ -22,12 +23,17 @@ a:visited.header-link{
     text-decoration: none;
 }
 a:hover.header-link{
-    color:#d8fdfd;
+    color:#E5E5E5;
 }
 a:active.header-link{
-    color:#d8fdfd;
+    color:#E5E5E5;
 }
 
+#inicio{
+    color:black;
+    text-decoration-line: none;
+    font-size: 1.0em;
+}
 
 
 /*NAVEGATION BAR*/
@@ -35,7 +41,7 @@ nav{
     background-color: white;
 }
 #Danbury-English{
-    font-size: 1.2em;
+    font-size: 1.0em;
     font-weight: 500;
 }
 
@@ -58,7 +64,7 @@ button.ponme-en-contacto{
     border: none;
 }
 button:hover.ponme-en-contacto{
-    background-color: #3a7ae0;
+    background-color: #950409;
     border: none;
 }
 .Elige{
@@ -72,10 +78,14 @@ h5{
 .card-title{
     margin: 10%;
 }
+
 .card-text{
     margin:4%;
 }
-
+.card{
+    box-shadow: 0px 4px 4px 4px rgba(0,0,0,0.3);
+    max-width: 380px;
+}
 
 /*BODY 03*/
 #body03{
@@ -86,9 +96,7 @@ h5{
 }
 
 /*Slider*/
-.carousel-item{
-    color: white;
-}
+
 
 /*BODY 04*/
 #body04{
@@ -98,8 +106,8 @@ h5{
     font-size: 1.2em;
     text-align: center;
     margin-top: 4%;
-    font-weight: 400;
-    margin-bottom: 2%;
+    font-weight: 600;
+    margin-bottom: 3%;
 }
 
 /*form_body*/
@@ -132,4 +140,90 @@ div.row{
     padding-right: 0px;
  }
 
+.pricingCard{
+    border: solid black 3px;
+}
+.greyContent{
+    background-color: lightgrey;
+    text-align: center;
+    margin-bottom: 8%;
+}
+.smallTextCards{
+    font-size: 0.7em;
+    text-align: center;
+}
+  
+  /* Change the width of the three columns to 100%
+  (to stack horizontally on small screens) */
+  @media only screen and (max-width: 600px) {
+    .columns {
+      width: 100%;
+    }
+  }
+
+ 
+/*Only large*/
+@media(min-width:992px){
+    #logoDE{
+        margin-bottom: 10%;
+    }
+}
+
+/*Large*/
+@media(max-width:992px){
+    #body02{
+        background-image: url(img/fondo.png);
+        margin:0 15vw 0 15vw;
+        padding: 0 7vw 0 7vw;
+        text-align: center;
+    }
+    #parent-body02{
+        background-color:#002457;
+    }
+    .img-redes-sociales{
+        margin:2vh 0 2vh 0;
+        max-width: 20%;
+    }
+    .contactos{
+        text-align: center;
+    }
+}
+
+/*Medium*/
+@media(max-width:768px){
+    #logoDE{
+        max-width: 40vh;
+    }
+}
+
+/*HIDE NAV BAR*/
+@media (max-width:1000px){
+    #botones-navegacion{
+        display: none!important;
+    }
+}
+
+
+ /*Small*/
+ @media (max-width:577px){
+    #logotipo{
+        max-width: 10%;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+    #body02{
+        margin: 0 10vw 0 10vw;
+    }
+    #form_body{
+        padding:10%;
+    }
+    #somosUnaCompaniaDeCapacitacion{
+        margin-left: 2%;
+        margin-right:10%;
+    }
+    #quienesSomosDanburyE{
+        margin-left:3%;
+    }
+    
+}
 

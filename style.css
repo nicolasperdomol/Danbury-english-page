@@ -149,8 +149,9 @@ div.row{
     margin-bottom: 8%;
 }
 .smallTextCards{
-    font-size: 0.7em;
+    font-size: 0.6em;
     text-align: center;
+    overflow-wrap:break-word;
 }
   
   /* Change the width of the three columns to 100%

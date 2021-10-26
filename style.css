@@ -149,7 +149,7 @@ div.row{
     margin-bottom: 8%;
 }
 .smallTextCards{
-    font-size: 0.6em;
+    font-size: 0.6em!important;
     text-align: center;
     overflow-wrap:break-word;
 }
